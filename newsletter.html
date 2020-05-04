@@ -53,57 +53,59 @@
 
 
   <body>
-    <header>
 
 
-  <nav class="navbar navbar-expand-md navbar-dark">
-    <a class="navbar-brand" href="#">qLive</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="adicionar.html">Adicionar live</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Newsletter<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#generos">Gêneros</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
 
-</header>
 
 <main role="main">
-  <form class="form-signin" method="post" action="/">
-    <h1 class="h3 mb-3 font-weight-normal">Se inscreva na Newsletter e receba e-mails das lives da próxima semana</h1>
-    <!-- Nome -->
-    <label for="name" class="sr-only">Nome</label>
-    <input type="text" name="inputName" class="form-control top" placeholder="Nome" required autofocus>
-    <!-- Sobrenome -->
-    <label for="name" class="sr-only">Nome</label>
-    <input type="text" name="inputLastName" class="form-control middle" placeholder="Sobrenome" required>
-    <!-- Email -->
-    <label for="inputEmail" class="sr-only">Email address</label>
-    <input type="email" name="inputEmail" class="form-control bottom" placeholder="Email" required>
+  <div class="wrapper">
 
-    <div class="checkbox mb-3">
-      <!-- <label>
-        <input type="checkbox" value="remember-me"> Lembrar de mim
-      </label> -->
-    </div>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Inscrever</button>
-  </form>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="#">qLive</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adicionar.html">Adicionar live</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Newsletter<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#generos">Gêneros</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <form class="form-signin" method="post" action="/">
+      <h1 class="h3 mb-3 font-weight-normal">Se inscreva na Newsletter e receba e-mails das lives da próxima semana</h1>
+      <!-- Nome -->
+      <label for="name" class="sr-only">Nome</label>
+      <input type="text" name="inputName" class="form-control top" placeholder="Nome" required autofocus>
+      <!-- Sobrenome -->
+      <label for="name" class="sr-only">Nome</label>
+      <input type="text" name="inputLastName" class="form-control middle" placeholder="Sobrenome" required>
+      <!-- Email -->
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" name="inputEmail" class="form-control bottom" placeholder="Email" required>
+
+      <div class="checkbox mb-3">
+        <!-- <label>
+          <input type="checkbox" value="remember-me"> Lembrar de mim
+        </label> -->
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Inscrever</button>
+    </form>
+    <div class="push"></div>
+  </div><!-- final do wrapper -->
   <!-- FOOTER -->
   <footer class="container">
     <p>&copy; 2020 Heitor e João</p>

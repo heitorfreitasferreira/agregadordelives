@@ -26,8 +26,6 @@ body {
   background-color: #f5f5f5;
 
   min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
 }
 h1,h3,h4,h5,h6{
   font-family: 'Oswald', sans-serif;
@@ -93,16 +91,16 @@ h2{
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-button.btn.btn-lg.btn-primary.btn-block{
+.btn{
   background-color: #f0a500;
   border-color: #f0a500;
 }
 /* FOOTER
 -------------------------------------------------- */
 footer{
-  grid-row-start: 2;
-  grid-row-end: 3;
-  margin: 2rem 0;
+  margin: 4rem 10% 0;
+  position: absolute;
+  bottom: 0;
 }
 
 /* RESPONSIVE CSS

@@ -21,8 +21,21 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h3,h4,h5,h6{
   font-family: 'Oswald', sans-serif;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  margin: 3rem auto;
+  text-align: center;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+section,footer{
+  width: 80%;
+  margin: 0 auto;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -31,10 +44,13 @@ h1,h2,h3,h4,h5,h6{
   white-space: nowrap;
 }
 .navbar a{
-  color: #dbdbdb!important;
+  color: #fff;
   margin-left: 10%;
 }
-span.navbar-toggler-icon{
+.nav-link{
+  color: #dbdbdb!important;
+}
+.navbar-toggler-icon{
   color: #dbdbdb;
 }
 .navbar-brand{
@@ -45,19 +61,14 @@ span.navbar-toggler-icon{
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 35rem;
 }
 .carousel-item > img {
   position: absolute;
@@ -87,44 +98,37 @@ span.navbar-toggler-icon{
 }
 
 
-
-/* ESTILOS MUSICAIS CONTENT
+/* ROLANDO AGORA
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+#rolando-agora .card{
+  margin: 2rem auto;
 }
-.marketing h2 {
-  font-weight: 400;
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+     padding-right: 0;
+    padding-left: 0;
 }
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-    margin-left: .75rem;
-}
-.estilos-musicais img{
-  border-radius: 100%;
-  width: 140px;
-  height: 140px;
+/* GENEROS
+-------------------------------------------------- */
+#generos .collapse{
   margin-bottom: 1rem;
 }
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+.botoes-lista-genero{
+  display: flex;
+}
+.list-group-item.active{
+  background-color: #cf7500;
+  border-color: #cf7500;
+}
+ .botoes-lista-genero .btn{
+  margin: 0 0.5rem;
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
+/* FOOTER
+-------------------------------------------------- */
+footer{
+  margin: 2rem 0;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
